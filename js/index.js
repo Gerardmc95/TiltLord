@@ -6,7 +6,7 @@ document.getElementById('buscarInv').addEventListener("click",hacerQuery());
 function hacerQuery(){
 	console.log("Se ha consultado");
 	var actualiza = "demo";
-	var direccion = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/RiotSchmick?api_key=RGAPI-7b6b0401-1252-4228-84e4-5b213a9fcc73";
+	var direccion = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/RiotSchmick?api_key=RGAPI-07831add-584d-40b5-bd2e-cc6c7475bb1b";
 	/*
 	var url = "../consultar.php";
 
