@@ -1,0 +1,58 @@
+.imgFondo{
+	width: 200px;
+	height: 75px;
+}
+
+.collapseMenu{
+	color: white;
+}
+
+.menuInicial{
+	margin-top: 10px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+.jumbotron{
+	text-align: center;
+	color:white;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.cuerpoInicial{
+	background-image: url("../images/fondo2.jpg"); 
+	background-repeat: no-repeat;
+	width: 102%;
+	height: 100%;
+}
+
+
+.photoDev{
+	width: 200px;
+	height: 200px;
+}
+
+
+#hiperLinks a{
+	color: white;
+}
+
+#hiperLinks a:hover{
+	color: #009999;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+
+#section1{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+.infoDev{
+	text-align: center;
+	color: white;
+}
+
