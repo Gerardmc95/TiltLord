@@ -23,10 +23,12 @@ function hacerQuery(){
     */
     $.ajax({
 type: "POST",
-url: "curl -v -XPOST 'https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/RiotSchmick?api_key=RGAPI-7b6b0401-1252-4228-84e4-5b213a9fcc73'",
+url: "curl 'https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/RiotSchmick?api_key=RGAPI-7b6b0401-1252-4228-84e4-5b213a9fcc73'",
 dataType: "json",
 success: function(data) {
 console.log("ALGO",data);
+}, error: function(error){
+	console.log("ERROR AQUI",error);
 }
 
 });

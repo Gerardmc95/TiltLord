@@ -9,7 +9,7 @@
 	<title>Los invocadores</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mancometro.css">
     
 </head>
 <body class="cuerpoInicial">
@@ -29,7 +29,7 @@
 					<li><a href="#">Historial de partidas</a></li>
 					<li><a href="#">Guía de campeones</a></li>
 					<li><a href="#">Nivel de estres</a></li>
-					<li><a href="mancometro.html">Mancometro</a></li>
+					<li><a href="index.html">Regresar</a></li>
 				</ul>
 			</div>
 		</div>
@@ -37,24 +37,54 @@
 	<!--Se termina el navbar-->
 	<!--Empieza la primera sección-->
 	<div class="container-fluid">
-		<div class="row initialSize" style="min-height: 565px;">
-			<div class="col-sm-12 ">
-				<div class="col-sm-4">
-					<form style="color: white;">
-						<label for="nameInv">Nombre de invocador</label>
-						<input type="text" id="nameInv" name="nameInv" accept-charset="UTF-2" class="form-control">
-						<br>	
-						<a  class="button btn btn-primary btn-block" id="buscarInv" > Enviar </a>
-					</form>
-				</div>
-				<div class="col-sm-4 col-sm-offset-2">
-					<br>
-					<div class="jumbotron">
-							<h3>Bienvenido Invocador</h3>
-							<h5>Aquí aparecerán tus estadísticas</h5>
-					</div>
-				</div>
+		<div class="row">
+			<div class="col-sm-2 col-sm-offset-2">
+				<br><br>
+				<img src="images/Q.png" alt="Q" class="imgTeclado">
+				<label for="" style="color: white;">Nivel máximo</label>
+				<input type="number" min="0" max="5" disabled="" id="q" class="control-form" value="0">
+				<br> <br><br>
+				<label for="" style="color: white;">Orden</label>
+				<input type="number" min="1" max="4" disabled="" id="w" class="control-form" value="0" >
+				<br><br>
 			</div>
+			<div class="col-sm-2">
+				<br><br>
+				<img src="images/W.png" alt="W" class="imgTeclado">
+				<label for="" style="color: white;">Nivel máximo</label>
+				<input type="number" min="0" max="5" disabled="" id="w" class="control-form" value="0"> <br><br>
+				<br>
+				<label for="" style="color: white;">Orden</label>
+				<input type="number" min="1" max="4" disabled="" id="w" class="control-form" value="0" >
+				<br><br>
+			</div>
+			<div class="col-sm-2">
+				<br><br>
+				<img src="images/E.png" alt=E" class="imgTeclado">
+				<label for="" style="color: white;">Nivel máximo</label>
+				<input type="number" min="0" max="5" disabled="" id="e" class="control-form" value="0"> <br><br>
+				<br>
+				<label for="" style="color: white;">Orden</label>
+				<input type="number" min="1" max="4" disabled="" id="w" class="control-form" value="0" >
+				<br><br>
+			</div>
+			<div class="col-sm-2">
+				<br><br>
+				<img src="images/R.png" alt=R" class="imgTeclado">
+				<label for="" style="color: white;">Nivel máximo</label>
+				<input type="number" min="0" max="5" disabled="" id="r" class="control-form" value="0"> <br> <br>
+				<br>
+				<label for="" style="color: white;">Orden</label>
+				<input type="number" min="1" max="4" disabled="" id="w" class="control-form" value="0" >
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<h3 style="color: white; text-align: center;">Desarrollado en Python</h3>
+			</div>
+		</div>
+		<div class="col-sm-4 col-sm-offset-5">
+			<img src="images/python.png" alt="python" style="width: 200px;">
 		</div>
 	</div>
 	
