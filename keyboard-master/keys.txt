@@ -1,0 +1,6 @@
+q= 2
+w= 2
+e= 1
+r= 1
+El orden en el que se realizaron los aumentos de nivel fue: 
+q r 
